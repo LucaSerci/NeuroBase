@@ -1,0 +1,155 @@
+.container {
+    background-color: #1d0000;
+    color: white;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+  .btn.submit{
+    float: right;
+  }
+  
+  .user-list {
+    
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  
+  .submit-button {
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #b9b9b9;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #4b4949;
+  }
+  
+  .user-card{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  
+  .form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aligner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-page{
+    margin-top: auto;
+    margin-bottom: 40px;
+  }
+
+  .sql-input-field {
+    width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #444;
+    color: white;
+    resize: vertical;
+    overflow: auto;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  pre.sql-input-field {
+    max-height: 400px;
+    overflow: auto;
+    font-family: monospace;
+  }
+
+  .table-wrapper {
+    max-height: 80%;
+    overflow: auto;
+    margin-top: 1rem;
+    border: 1px solid #666;
+    border-radius: 8px;
+  }
+
+  .response-column{
+    max-width: 500px
+  }
+  
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  
+  .result-table thead {
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: left;
+    color: white;
+  }
+  
+  .result-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .filters .input-field {
+    min-width: 200px;
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  

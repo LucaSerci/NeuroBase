@@ -1,0 +1,10 @@
+{
+  "db": {
+    "database": "company1exdb",
+    "host": "localhost",
+    "password": "root",
+    "user": "root"
+  },
+  "model": "gpt-4",
+  "openai_key": "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"
+}
